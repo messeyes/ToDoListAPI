@@ -11,7 +11,7 @@ import java.util.List;
 public class ToDoService {
     private ToDoRepository toDoRepository;
 
-    public void setToDoRepository(ToDoRepository toDoRepository) {
+    public ToDoService(ToDoRepository toDoRepository) {
         this.toDoRepository = toDoRepository;
     }
 
