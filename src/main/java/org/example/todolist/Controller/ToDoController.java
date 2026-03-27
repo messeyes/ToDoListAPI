@@ -32,7 +32,7 @@ public class ToDoController {
         return toDoService.update(toDo);
     }
 
-    @DeleteMapping("{id")
+    @DeleteMapping("{id}")
     List<ToDo> delete(@PathVariable("id") Long id){
         return toDoService.delete(id);
     }
