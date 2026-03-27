@@ -13,7 +13,7 @@ import java.util.List;
 public class ToDoController {
     private ToDoService toDoService;
 
-    public void ToDoController(ToDoService toDoService){
+    public ToDoController(ToDoService toDoService){
         this.toDoService = toDoService;
     }
 
